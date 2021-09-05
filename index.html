@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript Checkers</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="board-container">
+    <table class="checkers-board">
+      <tr>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="0"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="1"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="2"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="3"></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="checker checker-primary" id="4"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="5"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="6"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="7"></p>
+        </td>
+        <td class="empty-field"></td>
+      </tr>
+      <tr>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="8"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="9"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="10"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-primary" id="11"></p>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+      </tr>
+      <tr>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+        <td class="empty-field"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <p class="checker checker-secondary" id="12"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="13"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="14"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="15"></p>
+        </td>
+        <td class="empty-field"></td>
+      </tr>
+      <tr>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="16"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="17"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="18"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="19"></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="checker checker-secondary" id="20"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="21"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="22"></p>
+        </td>
+        <td class="empty-field"></td>
+        <td>
+          <p class="checker checker-secondary" id="23"></p>
+        </td>
+        <td class="empty-field"></td>
+      </tr>
+    </table>
+    <section class="score-board">
+      <div class="text text-primary">
+        Reds turn
+      </div>
+      <p id="divider">|</p>
+      <div class="text text-secondary">
+        Blacks turn
+      </div>
+    </section>
+  </main>
+</body>
+</html>
